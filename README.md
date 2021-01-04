@@ -12,6 +12,6 @@
 <h2 dir="rtl">کارهای کلاسی انجام شده</h2>
 <ul dir="rtl">
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR.git">مخزن گیت - PNU-3991-AR</a></li>
-<li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/SoloLearn%20JavaScript%20Course/cert-1024-20598451.jpg">مدرک فراگیری زبان Java Script</a></li>
+<li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/SoloLearn%20JavaScript%20Course/cert-1024-20598451.jpg">مدرک فراگیری زبان - Java Script</a></li>
 </ul>
 
