@@ -14,8 +14,6 @@
 <li><a href="https://github.com/armaghanGit">آدرس گیت</a></li>
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR.git">آدرس مخزن PNU-3991-AR</a></li>
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR.git">رزومه - CV</a></li>
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Sop/SOP.pdf">انگیزه نامه - SOP</a></li>
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR.git">پروژه لاتکس</a></li>
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/SoloLearn%20JavaScript%20Course/cert-1024-20598451.jpg">مدرک فراگیری زبان - Java Script</a></li>
