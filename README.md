@@ -14,7 +14,7 @@
 <li><a href="https://github.com/armaghanGit">آدرس گیت</a></li>
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR.git">آدرس مخزن PNU-3991-AR</a></li>
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Sop/SOP.pdf">انگیزه نامه - SOP</a></li>
-<li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Latex/SOP.pdf">انگیزه نامه - SOP</a></li>
+<li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Latex/SOP.pdf">رزومه - CV</a></li>
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/SoloLearn%20JavaScript%20Course/cert-1024-20598451.jpg">مدرک فراگیری زبان - Java Script</a></li>
 </ul>
 
