@@ -16,10 +16,10 @@
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR.git">رزومه - CV</a></li>
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Sop/SOP.pdf">انگیزه نامه - SOP</a></li>
 
-<li>
+<li><h4>پروژه تایپ لاتکس از صفحات 9 الی 12 - کتاب Introduction to Automata Theory,Formal Languages and Computation</h4>
 <ul dir="rtl">
-<li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Latex/Automata_Theory_AhmadArmaghan_909735631.pdf">پروژه لاتکس - خروجی PDF</a></li>
-<li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Latex/Automata_Theory_AhmadArmaghan_909735631.tex">پروژه لاتکس</a></li>
+<li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Latex/Automata_Theory_AhmadArmaghan_909735631.pdf">فایل خروجی به فرمت PDF</a></li>
+<li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Latex/Automata_Theory_AhmadArmaghan_909735631.tex">فایل پروژه</a></li>
 </ul>
 </li>
 
