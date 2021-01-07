@@ -13,7 +13,7 @@
 <ul dir="rtl">
 <li><a href="https://github.com/armaghanGit">آدرس گیت</a></li>
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR.git">آدرس مخزن PNU-3991-AR</a></li>
-<li><a href="https://github.com/armaghanGit/PNU-3991-AR.git">رزومه - CV</a></li>
+<li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/CV/Ahmad.Armghan.CV.Automata.pdf">رزومه - CV</a></li>
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Sop/SOP.pdf">انگیزه نامه - SOP</a></li>
 
 <li><h4>پروژه تایپ لاتکس از صفحات 9 الی 12 - کتاب Introduction to Automata Theory,Formal Languages and Computation</h4>
