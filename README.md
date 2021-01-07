@@ -15,7 +15,14 @@
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR.git">آدرس مخزن PNU-3991-AR</a></li>
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR.git">رزومه - CV</a></li>
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Sop/SOP.pdf">انگیزه نامه - SOP</a></li>
-<li><a href="https://github.com/armaghanGit/PNU-3991-AR.git">پروژه لاتکس</a></li>
+
+<li>
+<ul dir="rtl">
+<li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Latex/Automata_Theory_AhmadArmaghan_909735631.pdf">پروژه لاتکس - خروجی PDF</a></li>
+<li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Latex/Automata_Theory_AhmadArmaghan_909735631.tex">پروژه لاتکس</a></li>
+</ul>
+</li>
+
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/SoloLearn%20JavaScript%20Course/cert-1024-20598451.jpg">مدرک فراگیری زبان - Java Script</a></li>
 </ul>
 
