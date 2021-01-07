@@ -23,7 +23,8 @@
 </ul>
 </li>
 
-<li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/SoloLearn%20JavaScript%20Course/cert-1024-20598451.jpg">مدرک فراگیری زبان - Java Script</a></li>
+<li><a href="https://armaghangit.github.io/files/cert-1024-20598451.jpg">مدرک فراگیری زبان - Java Script</a></li>
+<li><a href="https://armaghangit.github.io/files/cert-1014-20598451.jpg">مدرک فراگیری زبان نشانه گذاری HTML</a></li>
 <li><a href="https://armaghangit.github.io/patchWork/index.html">مشارک در کارگاه یادگیری گیت - Patchwork</a></li>
 </ul>
 
