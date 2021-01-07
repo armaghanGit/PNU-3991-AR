@@ -22,9 +22,12 @@
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Latex/Automata_Theory_AhmadArmaghan_909735631.tex">فایل پروژه</a></li>
 </ul>
 </li>
-
+<li><h4>گواهینامه ها</h4>
+<ul dir="rtl">
 <li><a href="https://armaghangit.github.io/files/cert-1024-20598451.jpg">مدرک فراگیری زبان - Java Script</a></li>
 <li><a href="https://armaghangit.github.io/files/cert-1014-20598451.jpg">مدرک فراگیری زبان نشانه گذاری HTML</a></li>
 <li><a href="https://armaghangit.github.io/patchWork/index.html">مشارک در کارگاه یادگیری گیت - Patchwork</a></li>
+</ul>
+</li>
 </ul>
 
