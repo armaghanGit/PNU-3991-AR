@@ -1,0 +1,331 @@
+\documentclass[10.5pt]{article}
+\title{Introduction to Automata Theory,\\Formal Languages and\\Computation}
+\author{Shyamalendu Kandar\\\\Latex by Ahmad Armaghan\\StudentId : 909735631\\Professor: Mr. Ali Razavi Ebrahimi\\Course: Languages Theory 1115157-01}
+\date{\today}
+\usepackage{tabto}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{wrapfig}
+\usepackage{circuitikz}
+\usepackage{blindtext}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+\setcounter{page}{8}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{}
+\fancyhead[LO,RE]{}
+\fancyfoot[CE,CO]{}
+\fancyfoot[LE,RO]{}
+\rhead{\color{gray} Basic Terminology \textbar{} \thepage}
+\lfoot{\tiny \color{gray} By Ahmad Armaghan ,Student ID : 909735631 , Course : Language theory, Professor : Mr. Ali Razavi Ebrahimi}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{1pt}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{gray}\leaders\hrule height \footrulewidth\hfill}}
+\setlength{\headheight}{15pt}
+
+\begin{document}
+\maketitle
+\clearpage
+\begin{multicols}{2}
+[
+\noindent device. As gates are digital components, all these voltage ranges are restricted to two values ‘high’ and
+‘low’. In digital electronics, ‘high’ is represented as ‘1’ and low is represented as ‘0’. The electronic gate
+acts as a switching device which either permits fl ow of current or blocks it. The basic gates are AND,
+OR, NOT, and XOR.
+]
+\paragraph{}
+The AND gate has two or more inputs and a single
+output (Fig. 1.9). If all of the inputs are ‘1’ the
+output is ‘1’; otherwise, the output is ‘0’. For a twoinput
+AND gate, with input labels ‘A’ and ‘B’, the
+output function is written as T = AB. A two-input
+AND gate is represented by the following symbol
+and the truth table is as follows.
+\paragraph{}
+The OR gate also has two or more inputs and a
+single output (Fig. 1.10). If any of the inputs is ‘1’,
+the output is ‘1’; otherwise, it is ‘0’. For a two-input
+OR gate, with input labels ‘A’ and ‘B’, the output
+function is written as T = A + B. A two-input OR
+gate is represented by the following symbol and the
+truth table is as follows.
+\paragraph{}
+The NOT gate has a single input and a single
+output (Fig. 1.11). The function of the NOT gate is
+to reverse the input. The output function of the NOT
+gate is represented as T = A, where ‘A’ is the input.
+The symbol and truth table of the NOT gate is given
+as follows.
+\paragraph{}
+The exclusive-OR, in short XOR, gate is a complex
+gate (Fig. 1.12). A two-input XOR gate gives
+the output ‘1’ when its two inputs are different and
+the output ‘0’ when the inputs are the same. For two
+inputs ‘A’ and ‘B’, the output functions are represented
+by $T = A \oplus B = AB + AB$
+\columnbreak
+\begin{wrapfigure}{!h}{0.4\textwidth} 
+	\begin{center}
+		\begin{circuitikz} \draw
+			(0,2) node[and port] (a) {};
+		\end{circuitikz} 
+		\begin{tabular}{ |c|c|c| } 
+			\hline
+			A & B & O/P \\
+			\hline
+			0 & 0 & 0 \\
+			\hline
+			0 & 1 & 0 \\
+			\hline
+			1 & 1 & 1 \\
+			\hline
+			1 & 0 & 0 \\
+			\hline
+		\end{tabular}
+		\caption{\textit{The AND Gate with Truth Table}}
+		\end{center}
+\end{wrapfigure} 
+\begin{wrapfigure}{!h}{0.4\textwidth}
+	\begin{center}		
+		\begin{circuitikz} \draw
+			(0,2) node[or port] (a) {};
+		\end{circuitikz} 
+		\begin{tabular}{ |c|c|c| } 
+			\hline
+			A & B & O/P \\
+			\hline
+			0 & 0 & 0 \\
+			\hline
+			0 & 1 & 1 \\
+			\hline
+			1 & 1 & 1 \\
+			\hline
+			1 & 0 & 1 \\
+			\hline
+		\end{tabular}
+		\caption{\textit{The OR Gate with Truth Table}}
+	\end{center}
+\end{wrapfigure} 
+\begin{wrapfigure}{!h}{0.4\textwidth}
+	\begin{center}		
+		\begin{circuitikz} \draw
+			(0,2) node[not port] (a) {};
+		\end{circuitikz} 
+		\begin{tabular}{ |c|c| } 
+			\hline
+			A & O/P \\
+			\hline
+			0 & 1 \\
+			\hline
+			1 & 0 \\
+			\hline
+		\end{tabular}
+	\caption{\textit{The NOT Gate with Truth Table}}
+	\end{center}
+\end{wrapfigure}
+\begin{wrapfigure}{!h!}{0.4\textwidth}
+	\begin{center}		
+		\begin{circuitikz} \draw
+			(0,2) node[xor port] (a) {};
+		\end{circuitikz} 
+		\begin{tabular}{ |c|c|c| } 
+			\hline
+			A & B & O/P \\
+			\hline
+			0 & 0 & 0 \\
+			\hline
+			0 & 1 & 1 \\
+			\hline
+			1 & 1 & 0 \\
+			\hline
+			1 & 0 & 1 \\
+			\hline
+		\end{tabular}
+	\caption{\textit{The XOR Gate with Truth Table}}
+	\end{center}
+\end{wrapfigure}
+\begin{wrapfigure}{!h!}{0.0\textwidth}
+		 
+\end{wrapfigure}
+\end{multicols}
+\begin{center}
+\begin{enumerate}
+		\item[1.6] \textbf{Digital Circuit}
+		\paragraph{}
+A digital circuit is a circuit using logic gates where the signal must be one of two discrete levels. Each
+level is interpreted as one of two different states depending on the voltage level (on/off, 0/1 or true/
+false). The digital circuit is operated by the logic of the Boolean algebra. This logic is the foundation of
+digital electronics and computer processing.
+\paragraph{}
+Depending on the output function, digital circuits are divided into two  groups:
+		\item[1] \textbf{Combinational circuits:}
+ The circuits where the output depends only on the present input, i.e.,
+output is the function of only the present input, are called combinational circuits.
+   \item[2]
+   \textbf{Sequential circuit:} The circuits where the output depends on the external input and the stored
+information at that time, i.e., output is the function of external input and the present stored information,
+are called sequential circuits.
+O/P = Func.(External I/P and Present stored information)
+\end{enumerate}
+\end{center}
+
+\clearpage
+\paragraph{}
+The difference between the sequential and combinational circuit is that sequential circuit has memory
+in the form of fl ip fl op, whereas combinational circuit does not have the memory element. A general
+block diagram of sequential circuit is shown in Fig. 1.13.
+\begin{figure}[h!]
+	\begin{center}	
+		\includegraphics[width=0.8\linewidth]{./Images/fig-1.13.PNG}
+			\caption{\textit{Block Diagram of Sequential Circuit}}
+  	\end{center}
+\end{figure}
+
+Sequential circuits fall into two classes: synchronous and asynchronous. Synchronization is usually
+achieved by some timing device, such as clock. A clock produces equally spaced pulses. These pulses are fed into a circuit in such a way that various operations
+of the circuit take place with the arrival of appropriate
+clock pulses. Generally, the circuits, whose operations are
+controlled by clock pulses, are called synchronous circuit.
+\begin{wrapfigure}{!h!}{0.5\textwidth}
+	\begin{center}	
+		\includegraphics[width=0.9\linewidth]{./Images/fig-1.14.PNG}
+			\caption{\textit{Synchronous Sequential Circuit}}
+  	\end{center}
+\end{wrapfigure}
+
+\paragraph{}
+The operation of an asynchronous circuit does not
+depend on clock pulses. The operations in an asynchronous
+circuit are controlled by a number of completion
+and initialization signals. Here, the completion of one
+operation is the initialization of the execution of the next
+consecutive operation. The following (Fig. 1.14) block
+diagram is that of a synchronous sequential circuit.
+\paragraph{}
+A synchronous sequential machine has fi nite number
+of inputs. If a machine has n number of input variables,
+the input set consists of 2n distinct inputs called input
+alphabet I.
+In the fi gure, the input alphabet is I = $\{I1, I2, ……, Ip\}$.
+The number of outputs of a synchronous sequential
+machine is also fi nite.
+
+\paragraph{}
+A synchronous sequential circuit can be designed by the following process:\\
+\indent\textbullet{}{}From the problem description, design a state table and a state diagram (whichever is fi rst applicable).\\
+\indent\textbullet{}{}Make the state table redundant by machine minimization. This removes some states and makes the
+table redundant.\\
+\indent\textbullet{}{}Perform state assignment by assigning the states to binary numbers. n binary numbers can assign
+$2^{n}$ states.\\
+\indent\textbullet{}{}After performing the state assignment, derive a transition table and an output table.\\
+\indent\textbullet{}{}Derive the transitional function and the output function from the transitional table and the output
+table.\\
+\indent\textbullet{}Draw the circuit diagram.\\
+
+\clearpage
+\noindent The following examples design some synchronous sequential circuit.
+\begin{enumerate}
+		\item[Example 1.6] \textbf{Design a sequential circuit which performs the following:}
+\end{enumerate}
+
+\begin{center}
+	\begin{tabular}{ c c c c } 		
+		\hline
+		A & B & O/P & Carry \\
+		\hline
+		0 & 0 & 0 & 0\\
+		\hline
+		0 & 1 & 1 & 0\\
+		\hline
+		1 & 0 & 1 & 0\\
+		\hline
+		1 & 1 & 0 & 1\\
+		\hline
+	\end{tabular}
+\end{center}
+\begin{wrapfigure}{!h!}{0.5\textwidth}
+	\begin{center}	
+		\includegraphics[width=0.9\linewidth]{./Images/fig-1.15.PNG}
+			\caption{}
+  	\end{center}
+\end{wrapfigure}
+
+\noindent The carry is added with the I/P’s in the next clock pulse.\\
+\noindent \textbf{Solution:} Let us take two input strings $X_{1}=0111$ and $X_{2}=0101$.\\
+\indent Here, the output at time $t_{i}$ is a function of the inputs $X_{1}$ and $X_{2}$ at the time $t_{i}$ and of the carry generated for the input at $t_{i-1}$.\\
+O/P = func.(I/P at $t_{i}$ and the carry generated for
+the input at $t_{i-1}$)\\
+Therefore, this is a sequential circuit (Fig. 1.15).
+If we look into the previous table, we will see
+two types of cases arisen there. These are
+\begin{enumerate}
+		\item[1] The producing carry ‘0’
+		\item[2] The producing carry ‘1’.
+\end{enumerate}
+\indent\indent We have to consider this as the O/P depends of the carry also.\\
+\indent Let us take the cases as states. So, we can consider two states, A for (1) and B for (2). If we construct
+a table for the inputs $X_{1}$ and $X_{2}$ by considering the states, it will become
+\begin{center}
+\noindent\rule{7.8cm}{1.2pt}\\
+Next State, O/P(Z)
+\end{center}
+\begin{center}
+	\begin{tabular}{ c c c c c} 		
+		\hline
+		Present State & $X_{1}X_{2} = 00$ & =01 & =11 & =10 \\
+		\hline
+		A & A,0 & A,1 & B,0 & A,1 \\
+		\hline
+		B & A,1 & B,0 & B,1 & B,0 \\
+	\end{tabular}
+\end{center}
+\begin{center}
+\noindent\rule{7.8cm}{1.2pt}\\
+\end{center}
+\noindent This type of table is called the state table.
+\begin{wrapfigure}{!h!}{1\textwidth}
+	\begin{center}	
+		\includegraphics[width=0.8\linewidth]{./Images/fig-1.16.PNG}
+			\caption{\textit{State Diagram for the Sequential Circuit}}
+  	\end{center}
+\end{wrapfigure}
+This type of graph is called state graph or state diagram.
+\clearpage
+\paragraph{}
+For designing a circuit, we need only ‘0’ and ‘1’, i.e., Boolean values. So, the states A and B must be
+assigned to some Boolean number. As there are only two states A and B, only one-digit Boolean value
+is suffi cient. Let us represent A as ‘0’ and B as ‘1’.\\
+\indent By assigning these Boolean values to A and B, the modifi ed table becomes
+\begin{center}
+\noindent\rule{15.2 cm}{1.2pt}\\
+\end{center}
+\begin{center}
+\begin{tabular}{ c c c}
+\begin{tabular}{ c } {}\\ Present State(y) \\ \hline 0 \\ \hline 1\\ \end{tabular} & \begin{tabular}{ c c c c} Next State,(Y) \\ \hline $X_{1}X_{2}=00$ & =01 & =11 & =10  \\ \hline 0 & 0 & 1 & 0 \\ \hline 1 & 1 & 1 & 1\\  \end{tabular} & \begin{tabular}{ c c c c} O/P(Z) \\ \hline =00 & =01 & =11 & =10  \\ \hline 0 & 1 & 0 & 1\\ \hline 1 & 0 & 1 & 0\\  \end{tabular} \\
+\end{tabular}
+\end{center}
+\begin{center}
+\noindent\rule{15.2 cm}{2pt}\\
+\end{center}
+\noindent The function for next state \tab $Y=X_{1}X_{2} + X_{1y} + X_{2y}$\\
+\noindent The function for output \tab $Z^\prime=X^\prime_{1}X^\prime_{2y} + X^\prime_{1}X_{2y^\prime} + X_{1}X^\prime_{2y} + X_{1}X_{2y} = X_{1} \oplus X_{2} \oplus y$.
+\paragraph{}
+From this function, the digital circuit is designed as denoted in Fig.1.17.
+\begin{wrapfigure}{!h!}{1\textwidth}
+	\begin{center}	
+		\includegraphics[width=0.8\linewidth]{./Images/fig-1.17.PNG}
+			\caption{\textit{Circuit Diagram for the Sequential Circuit}}			
+  	\end{center}
+  	\noindent This is the circuit for full binary adder.
+\end{wrapfigure}
+\clearpage
+\end{document}
