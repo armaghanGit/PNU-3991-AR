@@ -30,7 +30,7 @@
 </ul>
 </li>
 </ul>
-<h2 dir="rtl">اعضای گروه درسی من و بچه ها برای درس نظریه زبان(G-L07)</h2>
+<h2 dir="rtl">اعضای گروه(G-L07)</h2>
 <ol dir="rtl">
    <li><a href="https://github.com/AliRazavi-edu/PNU_3991/tree/master/_BSc/Theory-of-Languages-and-Machines/_1115157_01/12_%D9%85%D8%AD%D9%85%D8%AF%D8%B1%D8%B6%D8%A7%20%D8%A8%D8%B5%D9%8A%D8%B1%D9%8A">LMT01-12_محمدرضا بصیری</a></li>
        <li><a href="https://github.com/AliRazavi-edu/PNU_3991/tree/master/_BSc/Theory-of-Languages-and-Machines/_1115157_01/03_%D8%A7%D8%AD%D9%85%D8%AF%20%D8%A7%D8%B1%D9%85%D8%BA%D8%A7%D9%86">LMT01-03_احمد  ارمغان</a></li>         
