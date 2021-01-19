@@ -73,64 +73,65 @@
 </ol>
 
 <h3 dir="rtl">روز و ساعت ارائه دروس</h3>
-<table style="width:100%" dir="rtl" >
+<table calss="margin-left:auto; margin-right:auto;" dir="rtl" >
   <tr>
-    <th >16-18</th>
-    <th >14-16</th>
-    <th >12-14</th>
-    <th>10-12</th>
-    <th>8-10</th>
     <th>روز</th>
+    <th>8-10</th>
+    <th>10-12</th>
+    <th >12-14</th>
+    <th >14-16</th>
+    <th >16-18</th>
   </tr>
   <tr>
   </tr>
    <tr>
-    <th ></th>
-    <th ></th>
-    <th ><a href="https://github.com/AliRazavi-edu/PNU_3991/tree/master/_BSc/Theory-of-Languages-and-Machines" >نظريه زبانهاوماشين ها 01-1115157</a></th>
-    <th></th>
-    <th ></th>
     <th>شنبه</th>
+    <th ></th>
+    <th></th>
+    <th ><a href="https://github.com/AliRazavi-edu/PNU_3991/tree/master/_BSc/Theory-of-Languages-and-Machines" >نظريه زبانهاوماشين ها 01-1115157</a></th>
+    <th ></th>
+    <th ></th>
   </tr>
    <tr>
+      <th>یک شنبه</th>
     <th ></th>
     <th ></th>
     <th ></th>
     <th ></th>
-    <th ></th>
-    <th>یک شنبه</th>
+    <th ></th>    
   </tr>
    <tr>
+      <th>دوشنبه</th>
      <th ></th>
      <th ></th>
      <th></th>
      <th ></th>
-     <th ></th>
-    <th>دوشنبه</th>
+     <th ></th>    
   </tr>
    <tr>
+      <th>سه شنبه</th>
     <th ></th>
     <th ></th>
     <th ></th>
     <th ></th>
-    <th ></th>
-    <th>سه شنبه</th>
+    <th ></th>    
  </tr>
   <tr>
+     <th>چهارشنبه</th>
    <th ></th>
    <th ></th>
    <th ></th>
    <th ></th>
    <th ></th>
-   <th>چهارشنبه</th>
  </tr>
  <tr>
+<th>پنجشنبه</th>
   <th ></th>
   <th ></th>
   <th ></th>
   <th ></th>
   <th ></th>
-  <th>پنجشنبه</th>
+  
   </tr>
 </table>
 
