@@ -36,7 +36,7 @@
 </ul>
 <li><h4>پروژه ها</h4>
 <ul dir="rtl">
-<li><a href="https://github.com/armaghanGit/ShrinkLink">پروژه لینک کوتاه</a></li>
+<li><a href="https://github.com/armaghanGit/ShrinkLink">مخزن پروژه لینک کوتاه</a></li>
 </ul>
 </li>
 </li>
