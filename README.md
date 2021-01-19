@@ -72,7 +72,7 @@
         <li><a href="https://github.com/AliRazavi-edu/PNU_3991/tree/master/_BSc/Theory-of-Languages-and-Machines/_1115157_02/33_%D9%81%D8%A7%D8%B7%D9%85%D9%87%20%D8%B3%D8%AA%D8%A7%D8%B1%D9%8A%20%D8%A7%D8%B0%D8%B1">LMT02-33_فاطمه ستاری آذر</a></li>
 </ol>
 
-<h3 dir="rtl">روز و ساعت ارائه دروس</h3>
+<h3 dir="rtl">روز و ساعت ارائه درس</h3>
 <table calss="margin-left:auto; margin-right:auto;" dir="rtl" >
   <tr>
     <th>روز</th>
