@@ -35,6 +35,11 @@
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Assessment/XX_GeneralSection_CheckList_AR_3991.pdf">خلاصه ارزیابی بخش عمومی</a></li>
 <li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Assessment/XX_Theory-of-Languages-and-Machines_CheckList_AR_3991.pdf">خلاصه ارزیابی درس نظریه زبان و ماشین</a></li>
 </ul>
+<li><h4>پروژه ها</h4>
+<ul dir="rtl">
+<li><a href="https://github.com/armaghanGit/ShrinkLink">پروژه لینک کوتاه</a></li>
+</ul>
+</li>
 </li>
 </ul>
 <h2 dir="rtl">اعضای گروه(G-L07)</h2>
