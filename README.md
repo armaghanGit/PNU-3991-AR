@@ -29,6 +29,13 @@
 <li><a href="https://armaghangit.github.io/patchWork/index.html">مشارک در کارگاه یادگیری گیت - Patchwork</a></li>
 </ul>
 </li>
+<li><h4>ارزیابی</h4>
+<ul dir="rtl">
+<li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Assessment/XX_CV_CheckList_AR_3991.pdf">ارزیابی رزومه و انگیزه نامه </a></li>
+<li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Assessment/XX_GeneralSection_CheckList_AR_3991.pdf">خلاصه ارزیابی بخش عمومی</a></li>
+<li><a href="https://github.com/armaghanGit/PNU-3991-AR/blob/main/Assessment/XX_Theory-of-Languages-and-Machines_CheckList_AR_3991.pdf">خلاصه ارزیابی درس نظریه زبان و ماشین</a></li>
+</ul>
+</li>
 </ul>
 <h2 dir="rtl">اعضای گروه(G-L07)</h2>
 <ol dir="rtl">
